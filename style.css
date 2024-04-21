@@ -1,0 +1,44 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:
+    rgba(11, 66, 171, 1);
+}
+
+.container{
+    padding: 68px 58px ;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+.gap-36{
+    gap: 36px;
+}
+
+.text-c{
+    color: rgba(255, 255, 255, 1);
+}
+
+.al-center{
+    /* text-align: center; */
+}
