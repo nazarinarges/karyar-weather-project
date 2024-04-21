@@ -9,9 +9,15 @@ html{
     padding: 0;
 }
 
+/* color */
+
 body{
     background-color:
     rgba(11, 66, 171, 1);
+}
+
+.text-c{
+    color: rgba(255, 255, 255, 1);
 }
 
 .container{
@@ -23,9 +29,15 @@ body{
     align-items: center;
 }
 
-.space-between{
+.jc-space-between{
     justify-content: space-between;
 }
+
+.jc-center{
+    justify-content: center;
+}
+
+/* gap */
 
 .gap-8{
     gap: 8px;
@@ -35,10 +47,64 @@ body{
     gap: 36px;
 }
 
-.text-c{
-    color: rgba(255, 255, 255, 1);
+.al-center{
+    text-align: center;
 }
 
-.al-center{
-    /* text-align: center; */
+/* font size */
+
+.fs-40{
+    font-size: 40px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+/* width and height
+
+.h-30{
+    height: 31px;
+}
+
+.h65{
+    height: 65px;
+}
+
+.w-85{
+    width: 85px;
+} */
+
+.min-w-200{
+    min-width: 200px;
+}
+
+.f-weight-300{
+    font-weight: 300px;
+}
+
+.f-weight-400{
+    font-weight:400px;
+}
+
+.f-weight-500{
+    font-weight: 500px;
+}
+
+.f-weight-600{
+    font-weight: 600;
+}
+
+.f-weight-700{
+    font-weight: 700;
+}
+
+/* margin */
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-15{
+    margin-top: 15px;
 }
