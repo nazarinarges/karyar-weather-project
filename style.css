@@ -1,8 +1,11 @@
 @font-face {
-    font-family: vazirmatn;
-    /* src: url("font/fonts/ttf/Vazirmatn-Black.ttf") format("ttf"); */
+    font-family: vazir-l;
     src: url("font/fonts/webfonts/Vazirmatn-Light.woff2") format("woff2");
-    s
+}
+
+@font-face {
+    font-family: vazir-t;
+    src: url("font/fonts/webfonts/Vazirmatn-Thin.woff2") format("woff2");
 }
 
 html{
@@ -19,9 +22,7 @@ html{
 /* color */
 
 body{
-    font-family:Vazirmatn ;
-    background-color:
-    rgba(11, 66, 171, 1);
+    background-color:rgba(11, 66, 171, 1);
 }
 
 .text-c{
@@ -65,12 +66,20 @@ body{
 
 /* font size */
 
-.fs-40{
-    font-size: 40px;
+.fs-14{
+    font-size: 14px;
 }
 
-.fs-20{
+.fs-16{
+    font-size: 15px;
+}
+
+..fs-20{
     font-size: 20px;
+}
+
+.fs-40{
+    font-size: 40px;
 }
 
 /* width and height
@@ -139,4 +148,12 @@ body{
     border-radius: 16px;
     backdrop-filter: blur(10px);
     padding: 20px 40px;
+}
+
+.max-min-weather{
+    font-family: "vazir-t";
+}
+
+.header-top , .moment-degree , .header-weather-chart  , .text-day{
+    font-family: "vazir-l";
 }
