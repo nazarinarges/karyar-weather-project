@@ -22,7 +22,9 @@ html{
 /* color */
 
 body{
-    background-color:rgba(11, 66, 171, 1);
+    background: linear-gradient(167.44deg, #08244F 0%, #134CB5 47.38%, #0B42AB 100%);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .text-c{
