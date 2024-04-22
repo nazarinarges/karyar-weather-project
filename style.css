@@ -67,6 +67,10 @@ body{
 
 /* font size */
 
+.fs-12{
+    font-size: 12px;
+}
+
 .fs-14{
     font-size: 14px;
 }
@@ -143,6 +147,10 @@ body{
     margin-top: 70px;
 }
 
+.text-l{
+    text-align: start;
+}
+
 .weather-chart{
     background: rgba(0, 16, 38, 0.3);
     border: solid 1px rgba(0, 16, 38, 0.3);
@@ -157,4 +165,84 @@ body{
 
 .header-top , .moment-degree , .header-weather-chart  , .text-day{
     font-family: "vazir-l";
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1350px) {
+    .main{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .main-part-left{
+    text-align: center;
+    width: 100%;
+    }
+
+    .main-part-right{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .weather-chart{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .weather-chart{
+        min-width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .weather-chart{
+        min-width: 300px;
+    }
+
+    .min-w-130{
+        min-width: 130px;
+    }
+
+    .min-w-52{
+        min-width: 52px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .min-w-52{
+        min-width: 52px;
+    }
+
+    .weather-chart{
+        min-width: 300px;
+    }
+
+    .min-w-130{
+        min-width: 130px;
+    }
+
+    .container{
+        padding: 32px 16px ;
+    }
+
+    .gap-16{
+        gap: 16px;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .min-w-130{
+        min-width: 130px;
+    }
+
+    .container{
+        padding: 32px 16px ;
+    }
+
+    .min-w-52{
+        min-width: 52px;
+    }
 }
