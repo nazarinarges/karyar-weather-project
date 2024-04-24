@@ -87,7 +87,7 @@ body{
     font-size: 15px;
 }
 
-..fs-20{
+.fs-20{
     font-size: 20px;
 }
 
@@ -191,10 +191,6 @@ body{
 .weight-40{
     width: 40px;
     height: 40px;
-}
-
-.height-40{
-    /* height: 40px; */
 }
 
 /* responsive */
